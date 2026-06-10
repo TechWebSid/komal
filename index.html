@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Something for Someone Special</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;600&display=swap');
+
+        :root {
+            --primary-pink: #ffb6c1;
+            --deep-red: #8b0000;
+            --cream: #fffaf0;
+            --soft-grey: #f5f5f5;
+        }
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background-color: var(--soft-grey);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: var(--cream);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .container::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            background-color: var(--primary-pink);
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            color: var(--deep-red);
+            font-size: 5rem;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            text-align: center;
+            color: #555;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .section-praise {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .praise-item {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .praise-item:hover {
+            transform: scale(1.02);
+        }
+
+        .praise-image {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 30px;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .praise-text h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--deep-red);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .praise-text p {
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .poem-container {
+            margin-top: 60px;
+            background-color: rgba(255, 182, 193, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .poem-container::before {
+            content: "🤍";
+            font-size: 2rem;
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--deep-red);
+        }
+
+        .poem {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--deep-red);
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .love-note {
+            font-family: 'Great Vibes', cursive;
+            color: var(--deep-red);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Dear Komal ❤️</h1>
+    <p class="subtitle">Just a little something to brightenthe day of someone who brightens mine...</p>
+
+    <div class="section-praise">
+
+        <div class="praise-item">
+            <img src="/komal2.jpeg" alt="Her radiant beauty" class="praise-image">
+            <div class="praise-text">
+                <h2>A Pure & Radiant Spark</h2>
+                <p>I could get lost for hours looking at this picture. It's not just that you're beautiful (though you absolutely are!), but there's a light that shines through that's so pure and genuine. Your smile is completely captivating, and your eyes seem to hold a million kind and interesting stories. It's the kind of effortless beauty that makes the world feel a little softer and happier.</p>
+            </div>
+        </div>
+
+        <div class="praise-item" style="flex-direction: row-reverse;">
+            <img src="komal.jpeg" alt="Absolutely stunning photo" class="praise-image" style="margin-right: 0; margin-left: 30px;">
+            <div class="praise-text" style="text-align: right;">
+                <h2>A Truly Breathtaking Sight</h2>
+                <p>Then I see this photo, and wow... I’m just completely blown away! To put it simply, you look absolutely stunning here. You have a confidence and a vibe that are incredibly magnetic and, to be a little flirty, totally heart-racing. You're not just beautiful; you are utterly fire! I can’t quite figure out if you know exactly how dangerous this level of gorgeousness is, or if it's completely effortless for you.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="poem-container">
+        <p class="poem">
+            A smile that sets the stars alight,<br>
+            A pure and such a radiant sight.<br>
+            Your beauty shines from within, it's true,<br>
+            There's simply no one quite like you.<br>
+            <br>
+            But looking closer, it’s also clear,<br>
+            You hold a fire I holds so dear.<br>
+            A spark, a confidence, a playful grace,<br>
+            A stunning charm in your lovely face.<br>
+            <br>
+            You're radiant, breathtaking, a beautiful art,<br>
+            And I can't help but wonder if you know you’re stealing my heart.<br>
+        </p>
+    </div>
+
+    <div class="footer">
+        <p class="love-note">Hoping this made you smile,</p>
+        <p>Siddhartha❤️</p>
+    </div>
+
+</div>
+
+</body>
+</html>
